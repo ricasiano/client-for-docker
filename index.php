@@ -1,12 +1,17 @@
-<?php
+<?
 echo "a";
 if($a == 1)
 {
-	echo 2;
+		echo  2;
 }
 
 class A{
 
+	function noVisibility(){
+}
+	
 }
 
-$classA = new A;
+$ClassA = new A;
+?>
+
