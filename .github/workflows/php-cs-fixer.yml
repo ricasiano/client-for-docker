@@ -18,4 +18,4 @@ jobs:
     steps:
       - name: Run PHPCS
         run: |
-          phpcs *.php
+          /home/docker/phpcs *.php
