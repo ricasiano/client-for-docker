@@ -1,19 +1,19 @@
 <?php
-echo "a";
-if($a == 1)
-	
+$a = 1;
+if (1 === $a) {
+    echo 2;
+}
+
+class A
 {
-		echo  2;
+    public function noVisibility(): int
+    {
+        return 1;
+    }
 }
 
-class A   {
-
-	function noVisibility(){
-}
-	
-}
-
-$ClassA = new A;
+$classA = new A();
+$classA->noVisibility();
 
 
 
