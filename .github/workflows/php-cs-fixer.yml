@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Run PHPCS
         run: |
-          phpcs --standard=phpcs.xml *.php
+          phpcs --standard=PSR12 *.php
