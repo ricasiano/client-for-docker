@@ -18,4 +18,4 @@ jobs:
     steps:
       - name: Run PHPCS
         run: |
-          ~/.composer/vendor/bin/phpcs *.php
+          ./vendor/bin/phpcs *.php
