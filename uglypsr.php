@@ -4,6 +4,4 @@
  * MyClass Class Doc Comment
  * @version  7.1
  */
-class MyClass
-{
-}
+echo 'a';
