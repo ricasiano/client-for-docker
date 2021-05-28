@@ -1,30 +1,14 @@
 <?php
 /**
- * @file
- * Description of what this module (or file) is doing.
+ * MyClass Class Doc Comment
+ *
+ * @category Class
+ * @package  MyPackage
+ * @author    A N Other
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://www.hashbangcode.com/
+ * @version  7.1
+ *
  */
-$a = 1;
-if (1 === $a) {
-    echo 2;
+class MyClass{
 }
-
-/**
- * Class A
- */
-class A
-{
-    /**
-     * @return int
-     */
-    public function noVisibility(): int
-    {
-        return 1;
-    }
-}
-
-$classA = new A();
-$classA->noVisibility();
-
-
-
-
