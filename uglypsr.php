@@ -4,8 +4,14 @@ if (1 === $a) {
     echo 2;
 }
 
+/**
+ * Class A
+ */
 class A
 {
+    /**
+     * @return int
+     */
     public function noVisibility(): int
     {
         return 1;
