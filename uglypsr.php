@@ -1,8 +1,7 @@
 <?php
 /**
- * @file
+ * @file uglypsr.php
  * MyClass File Doc Comment
- *
  * @category MyClass
  *  @package MyPackage
  *   @author Display Name <who@are.you>
