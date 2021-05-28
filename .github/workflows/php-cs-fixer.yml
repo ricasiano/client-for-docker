@@ -17,16 +17,6 @@ jobs:
     name: Run PHP CS Fixer
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Setup PHP
-        uses: shivammathur/setup-php@2.7.0
-        with:
-          php-version: 7.4
-          extensions: json, dom, curl, libxml, mbstring
-          coverage: none
-
       - name: Run PHPCS
         run: |
           phpcs *.php
