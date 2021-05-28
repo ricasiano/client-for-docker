@@ -1,21 +1,13 @@
 name: php-cs-fixer
-
-env:
-  PR_NUMBER: "${{ github.event.number }}"
-  SOURCE_BRANCH: "$GITHUB_HEAD_REF"
-  FIXER_BRANCH: "auto-fixed/$GITHUB_HEAD_REF"
-  TITLE: "Apply fixes from PHP-CS-Fixer"
-  DESCRIPTION: "This merge request applies PHP code style fixes from an analysis carried out through GitHub Actions."
-
 on: [ push, pull_request ]
 
 jobs:
   php-cs-fixer:
     runs-on: [self-hosted, linux, x64]
-
-    name: Run PHP CS Fixer
-
+    name: Run PHP CS
     steps:
+      - uses: actions/checkout@master
       - name: Run PHPCS
         run: |
-          /home/docker/actions-runner/bin/phpcs *.php
+          php -v
+          phpcs *.php
