@@ -1,3 +1,16 @@
 <?php
+/**
+ * File docblock.
+ *
+ * @package Vendor\Package
+ */
 
-echo 1;
+class Foo {
+    /**
+     * Function docblock.
+     */
+    public function bar()
+    {
+        echo 'a';
+    }
+}
