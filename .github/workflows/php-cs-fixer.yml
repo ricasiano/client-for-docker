@@ -6,7 +6,7 @@ jobs:
     runs-on: [self-hosted, linux, x64]
     name: Run PHP CS
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Run PHPCS
         run: |
           phpcs --standard=PSR12 *.php
