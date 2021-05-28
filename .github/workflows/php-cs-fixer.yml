@@ -6,7 +6,6 @@ jobs:
     runs-on: [self-hosted, linux, x64]
     name: Run PHP CS
     steps:
-      - uses: actions/checkout@master
       - name: Run PHPCS
         run: |
           phpcs *.php
