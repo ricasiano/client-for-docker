@@ -5,7 +5,7 @@ if($a == 1)
 		echo  2;
 }
 
-class A{
+class A   {
 
 	function noVisibility(){
 }
