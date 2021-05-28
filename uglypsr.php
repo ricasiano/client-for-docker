@@ -1,5 +1,4 @@
 <?php
-
 namespace Package;
 
 class Foo
