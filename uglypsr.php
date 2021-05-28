@@ -1,4 +1,4 @@
-<?
+<?php
 echo "a";
 if($a == 1)
 	
@@ -16,5 +16,5 @@ class A   {
 $ClassA = new A;
 
 
-?>
+
 
