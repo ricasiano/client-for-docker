@@ -1,14 +1,8 @@
 <?php
-/**
- * File docblock.
- *
- * @package Vendor\Package
- */
+namespace Package;
 
-class Foo {
-    /**
-     * Function docblock.
-     */
+class Foo
+{
     public function bar()
     {
         echo 'a';
