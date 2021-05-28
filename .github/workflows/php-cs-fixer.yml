@@ -8,4 +8,5 @@ jobs:
     steps:
       - name: Run PHPCS
         run: |
+          cat uglypsr.php
           phpcs --standard=PSR12 *.php
