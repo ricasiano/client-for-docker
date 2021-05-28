@@ -11,7 +11,6 @@ on: [ push, pull_request ]
 
 jobs:
   php-cs-fixer:
-    if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
     runs-on: [self-hosted, linux, x64]
 
     name: Run PHP CS Fixer
