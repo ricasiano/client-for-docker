@@ -2,10 +2,10 @@
 
 namespace Package;
 
-class Foo
+class foo
 {
-    public function bar()
+    public function BaR ()
     {
-        echo 'a';
-    }
+        echo "a";
+}
 }
